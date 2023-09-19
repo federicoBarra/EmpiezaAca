@@ -1,0 +1,53 @@
+https://www.youtube.com/watch?v=Fy0aCDmgnxg
+https://www.youtube.com/watch?v=AJdEqssNZ-U
+
+https://www.mixamo.com/#/
+
+https://assetstore.unity.com/
+
+[Clase 01]
+Colisiones
+Fisica
+Editor en general
+Materiales basicos
+Scripts basicos
+Prefabs
+Diferentes escenas
+Movimiento basico.
+UI Basica
+
+{Tarea}
+Hacer una esfera 
+	Se mueva en el plano, con fisica
+	que dispare a enemies y los mate.
+
+Que cuando el enemy muere dispare un sistema de particulas.
+
+
+[Clase 02]
+Serializables
+Attributes
+https://docs.unity3d.com/ScriptReference/AddComponentMenu.html
+
+trucos para visualizar en 3d al programar?
+mejores practicas para pasar variables entre scripts?
+managers de cosas, 
+como laburar con multiples clases de cosas (colisiones entre diversos tipos de objetos, como se agrupan tipos de enemigos, ponele, etc) 
+Character Controller
+Ctrl + p = Play
+
+Estructura clara de proyecto
+
+{Tarea}
+No se
+
+[Clase 03]
+Rotaciones.
+pooling, 
+maquinas de estados 
+Camara player Follow
+Animaciones
+Generics
+Chimi - Espectacularidad al juego choto que hicimos
+
+
