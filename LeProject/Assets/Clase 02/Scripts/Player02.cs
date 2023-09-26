@@ -31,6 +31,8 @@ public class Player02 : MonoBehaviour
 	public float jumpHeight = 1.0f;
 	public float gravityValue = -9.81f;
 
+
+	public Animator animator;
 	// Start is called before the first frame update
 	void Awake()
 	{
@@ -39,7 +41,12 @@ public class Player02 : MonoBehaviour
 		stats.Health = stats.HealthMax;
 
 		controller = gameObject.GetComponent<CharacterController>();
+		animator = GetComponent<Animator>();
+
 	}
+
+	public float someSpeed = 1;
+	public float otherValue = 0;
 
 	void Update()
 	{
@@ -54,6 +61,11 @@ public class Player02 : MonoBehaviour
 
 		Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
 		controller.Move(move * Time.deltaTime * playerSpeed);
+
+		otherValue = Mathf.Lerp(otherValue, Mathf.Abs(move.x), someSpeed * Time.deltaTime);
+
+		animator.SetFloat("Forward", otherValue);
+		animator.SetFloat("Sides", move.z);
 
 		//gameObject.transform.Rotate();
 
@@ -95,6 +107,8 @@ public class Player02 : MonoBehaviour
 		{
 			Debug.DrawRay(rayOrigen, rayDirection * attackDistance, Color.white, 1f);
 		}
+
+		animator.SetTrigger("Attack");
 	}
 
 	void ReceiveDamage(float damage)

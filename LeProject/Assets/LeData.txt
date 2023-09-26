@@ -42,11 +42,28 @@ Estructura clara de proyecto
 No se
 
 [Clase 03]
+www.mixamo.com
+FBX 
+Fuse
+mixamo
+Huesos (rigging)
+Post
+Animator y cosas
+
+{Tarea}
+Hacer un personajito que funque bien
+HitTime
+Attack Cooldown
+
+
+
+[Clase 04]
+Particulas
+FXs
 Rotaciones.
 pooling, 
 maquinas de estados 
 Camara player Follow
-Animaciones
 Generics
 Chimi - Espectacularidad al juego choto que hicimos
 
