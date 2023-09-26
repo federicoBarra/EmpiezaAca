@@ -54,10 +54,14 @@ Animator y cosas
 Hacer un personajito que funque bien
 HitTime
 Attack Cooldown
+Un enemigo con animaciones tambien
 
 
 
 [Clase 04]
+Sonido
+Render Textures
+Camera Split
 Particulas
 FXs
 Rotaciones.
