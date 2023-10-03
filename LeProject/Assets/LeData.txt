@@ -50,20 +50,21 @@ Huesos (rigging)
 Post
 Animator y cosas
 
-{Tarea}
-Hacer un personajito que funque bien
-HitTime
-Attack Cooldown
-Un enemigo con animaciones tambien
-
-
-
 [Clase 04]
-Sonido
+Buscar Videito 
+	Normal map
+	Light baking
+	
+00 - Lights
+01 - Particulas
+	https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
+02 - Mas FXs
+	https://assetstore.unity.com/packages/tools/particles-effects/spritetoparticles-69765
+03 - Sonido
+	
+
 Render Textures
 Camera Split
-Particulas
-FXs
 Rotaciones.
 pooling, 
 maquinas de estados 
@@ -72,3 +73,8 @@ Generics
 Chimi - Espectacularidad al juego choto que hicimos
 
 
+{Tarea}
+Hacer un personajito que funque bien
+HitTime
+Attack Cooldown
+Un enemigo con animaciones tambien
